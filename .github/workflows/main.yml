@@ -31,4 +31,4 @@ jobs:
      run: npm run mock-server &
 
    - name: Instalando as dependencias
-     run: npx cypress opem
+     run: npx cypress open
