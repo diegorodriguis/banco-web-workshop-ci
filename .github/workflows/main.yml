@@ -24,11 +24,11 @@ jobs:
    - name: Instalando as dependencias
      run: npm install
 
-   - name: Instalando as dependencias
+   - name: Iniciando o servidor da aplicação
      run: npm run server &
 
-   - name: Instalando as dependencias
+   - name: Iniciando o servidor de mocks
      run: npm run mock-server &
 
-   - name: Instalando as dependencias
-     run: npx cypress open
+   - name: Iniciando o servidor da aplicação Cypress
+     run: npx cypress run
